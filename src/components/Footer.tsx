@@ -27,23 +27,15 @@ const Footer: React.FC = () => {
             <div className="flex items-center mb-6">
                 <Link href="/" className="z-50 inline-flex items-baseline gap-[2px]">
                               <img
-                                src={"/logo-square.png" }
+                                src={"/new-logo.png" }
                                 alt="Ecomorph Logo"
-                                className="h-16 w-auto"
+                                className="h-18 w-auto"
                               />
                             </Link>
-                          <div className="text-white">
+                          {/* <div className="text-white">
                             <div className="text-2xl font-bold tracking-wider text-[#198bc9]">ECOMORPH</div>
                             <div className="text-xs tracking-widest font-semibold text-black">PROJECTS</div>
-                          </div>
-              {/* <div className="w-12 h-12 border-2 border-gray-800 relative mr-3">
-                <div className="absolute inset-1 border border-gray-800"></div>
-                <div className="absolute top-2 left-2 right-2 bottom-2 bg-gray-800 opacity-20"></div>
-              </div>
-              <div className="text-gray-800">
-                <div className="text-xl font-bold tracking-wider">BOXMAN</div>
-                <div className="text-xs tracking-widest opacity-80">STUDIOS</div>
-              </div> */}
+                          </div> */}
             </div>
             
             {/* Tagline */}
