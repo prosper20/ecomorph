@@ -3,6 +3,7 @@ import Image from "next/image";
 import LegacySection from "./components/LegacySection";
 import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
+import { Clients } from "@/components/Clients";
 
 
 export default function WhyUsPage() {
@@ -20,6 +21,7 @@ export default function WhyUsPage() {
         className="object-cover"
         priority
       />
+      <Clients />
     </section>
     </>
   )

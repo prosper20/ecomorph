@@ -75,13 +75,13 @@ const HeroSection: React.FC = () => {
 
           <div className="relative z-10">
             {/* Large title */}
-            <h1 className="text-6xl lg:text-8xl font-bold text-white mb-8 leading-none">
+            <h1 className="text-4xl lg:text-8xl font-bold text-white mb-8 leading-none">
               ECOMORPH PROJECTS
             </h1>
 
             {/* Arrow pointing down */}
             <div className="mb-12">
-              <svg className="w-16 h-16 text-white animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-8 h-8 md:w-16 md:h-16 text-white animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
               </svg>
             </div>

@@ -28,7 +28,7 @@ const features = [
 ];
 
   return (
-    <section className="py-16 px-8 lg:px-16 bg-white">
+    <section className="py-16 px-4 lg:px-16 bg-white">
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Heading */}
         <div className="mb-12">
