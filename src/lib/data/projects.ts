@@ -17,28 +17,36 @@ export const projectsData = [
     projects: [
       {
         id: 1,
-        title: "OML 42 Facility Upgrade – Ecomorph/Nestoil",
-        location: "Odidi/Egwa/Jones Creek",
+        title: "Chevron Nigeria Limited (CNL)",
+        location: "Escravos Tank Farm, Delta State",
         images: ["/projects/project22.jpeg", "/projects/project22.jpeg", "/projects/project22.jpeg"],
-        description: "OML 42 Facility upgrade at Odidi/Egwa/Jones Creek"
+        description: "Construction of workers' accommodation camp for crude oil tanks refurbishment."
       },
       {
         id: 2,
-        title: "Olero Creek Facility Demolition – Ecomorph/Chevron",
-        location: "Olero Creek",
+        title: "Southern Gas Constructors (SGC)",
+        location: "EGTL site, Escravos, Delta State",
         images: ["/projects/project28.jpeg"],
-        description: "Demolition works at Olero Creek facility location"
+        description: "Construction of Escravos Gas To Liquid (EGTL) project, 'Main Camp Accommodation' for foreign nationals and Nigerian workers."
       },
       {
         id: 3,
-        title: "OML 86/88 Offshore Facilities Upgrade – Ecomorph/Pioneer/NEPL",
-        location: "Funiwa and North Apoi",
-        images: ["/projects/project21.jpeg"],
-        description: "Offshore facilities upgrade at Funiwa and North Apoi"
+        title: "Pioneer Natural Resources Limited",
+        location: "Opuama / Tsekelewu, Delta State",
+        images: ["/projects/project18.jpeg"],
+        description: "OML 40 Power Island 'Project Accommodation Camp construction'."
+      },
+      {
+        id: 4,
+        title: "Mobil Producing Nigeria Limited",
+        location: "Eket, Akwa Ibom State",
+        images: ["/projects/project3.jpeg", "/projects/project12.jpeg", "/projects/project10.jpeg", "/projects/project14.jpeg"],
+        description: "Refurbishment of Tank 5005 Qua Ibom Terminal (QIT)."
       }
     ]
   }
 ];
+
 
 
 // export const projectsData = [

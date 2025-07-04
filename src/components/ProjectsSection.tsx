@@ -2,40 +2,43 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
+import { projectsData } from '@/lib/data/projects'
 
-type Project = {
-  id: string;
-  name: string;
-  imageUrl: string;
-  link: string;
-  alt: string;
-};
+// type Project = {
+//   id: string;
+//   name: string;
+//   imageUrl: string;
+//   link: string;
+//   alt: string;
+// };
 
-const projects: Project[] = [
-    {
-        id: 'oml-42-upgrade',
-        name: 'OML 42 Facility Upgrade – Ecomorph/Nestoil',
-        imageUrl: '/projects/project22.jpeg',
-        link: '/projects/oml-42-upgrade',
-        alt: 'OML 42 Facility upgrade at Odidi/Egwa/Jones Creek',
-      },
-      {
-        id: 'olero-demolition',
-        name: 'Olero Creek Facility Demolition – Ecomorph/Chevron',
-        imageUrl: '/projects/project28.jpeg',
-        link: '/projects/olero-demolition',
-        alt: 'Demolition works at Olero Creek facility location',
-      },
-      {
-        id: 'oml-86-88-upgrade',
-        name: 'OML 86/88 Offshore Facilities Upgrade – Ecomorph/Pioneer/NEPL',
-        imageUrl: '/projects/project21.jpeg',
-        link: '/projects/oml-86-88-upgrade',
-        alt: 'Offshore facilities upgrade at Funiwa and North Apoi',
-      },
-];
+// const projects: Project[] = [
+//     {
+//         id: 'oml-42-upgrade',
+//         name: 'OML 42 Facility Upgrade – Ecomorph/Nestoil',
+//         imageUrl: '/projects/project22.jpeg',
+//         link: '/projects/oml-42-upgrade',
+//         alt: 'OML 42 Facility upgrade at Odidi/Egwa/Jones Creek',
+//       },
+//       {
+//         id: 'olero-demolition',
+//         name: 'Olero Creek Facility Demolition – Ecomorph/Chevron',
+//         imageUrl: '/projects/project28.jpeg',
+//         link: '/projects/olero-demolition',
+//         alt: 'Demolition works at Olero Creek facility location',
+//       },
+//       {
+//         id: 'oml-86-88-upgrade',
+//         name: 'OML 86/88 Offshore Facilities Upgrade – Ecomorph/Pioneer/NEPL',
+//         imageUrl: '/projects/project21.jpeg',
+//         link: '/projects/oml-86-88-upgrade',
+//         alt: 'Offshore facilities upgrade at Funiwa and North Apoi',
+//       },
+// ];
 
 export default function ProjectsSection() {
+
+  const projects = projectsData[0].projects
   return (
     <section className="py-16 lg:px-16 bg-white w-full">
       <div className="max-w-8xl mx-auto sm:px-6 lg:px-8 flex flex-col md:flex-row gap-8">
@@ -48,11 +51,11 @@ export default function ProjectsSection() {
 
         <div className="md:w-2/3 space-y-6">
           {projects.map(project => (
-            <Link href={project.link} key={project.id} className="block group overflow-hidden relative">
+            <Link href={`/projects/${project.id}`} key={project.id} className="block group overflow-hidden relative">
               <div className="relative w-full h-[360px] md:h-[450px]">
                 <Image
-                  src={project.imageUrl}
-                  alt={project.alt}
+                  src={project.images[0]}
+                  alt={project.description}
                   fill
                   className="object-cover w-full h-full transform group-hover:scale-110 transition-transform duration-1000 ease-[cubic-bezier(0.33,0.02,0,0.93)]"
                 />
@@ -81,7 +84,7 @@ export default function ProjectsSection() {
               {/* Project Name Overlay */}
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 via-black/30 to-transparent p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 <h3 className="text-white text-lg font-semibold leading-tight">
-                  {project.name}
+                  {project.title}
                 </h3>
               </div>
             </Link>

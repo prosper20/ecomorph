@@ -11,13 +11,6 @@ export default function HomePage() {
       <Hero />
       <Features />
       <ProjectsSection />
-      {/* 
-      <Testimonials />
-      <ServicesSection />
-      <SelfTestimonialCard />
-      <Mission isHomePage className="!px-[5%]" />
-      <Clients />
-      <ContactForm /> */}
       <CallToAction />
     </>
   )
