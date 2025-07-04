@@ -40,7 +40,7 @@ export default function ContactForm() {
   };
 
   return (
-    <section className="min-h-screen bg-[#f8f8f7] px-6 py-16 md:px-24 flex justify-center items-center">
+    <section id="contact-form" className="min-h-screen bg-[#f8f8f7] px-6 py-16 md:px-24 flex justify-center items-center">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="flex flex-col justify-start items-top">
             <h2 className="text-3xl md:text-4xl font-bold text-[#344249] leading-snug mb-4">
