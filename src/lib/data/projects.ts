@@ -16,28 +16,28 @@ export const projectsData = [
     category: "Oil & Gas Facilities",
     projects: [
       {
-        id: 1,
+        id: "chevron",
         title: "Chevron Nigeria Limited (CNL)",
         location: "Escravos Tank Farm, Delta State",
-        images: ["/projects/project22.jpeg", "/projects/project22.jpeg", "/projects/project22.jpeg"],
+        images: ["/projects/project6.jpeg", "/projects/project3.jpeg", "/projects/project15.jpeg", "/projects/project2.jpeg"],
         description: "Construction of workers' accommodation camp for crude oil tanks refurbishment."
       },
       {
-        id: 2,
+        id: 'southern-gas',
         title: "Southern Gas Constructors (SGC)",
         location: "EGTL site, Escravos, Delta State",
         images: ["/projects/project28.jpeg"],
         description: "Construction of Escravos Gas To Liquid (EGTL) project, 'Main Camp Accommodation' for foreign nationals and Nigerian workers."
       },
       {
-        id: 3,
+        id: 'pioneer-natural',
         title: "Pioneer Natural Resources Limited",
         location: "Opuama / Tsekelewu, Delta State",
         images: ["/projects/project18.jpeg"],
         description: "OML 40 Power Island 'Project Accommodation Camp construction'."
       },
       {
-        id: 4,
+        id: 'mobil',
         title: "Mobil Producing Nigeria Limited",
         location: "Eket, Akwa Ibom State",
         images: ["/projects/project3.jpeg", "/projects/project12.jpeg", "/projects/project10.jpeg", "/projects/project14.jpeg"],
