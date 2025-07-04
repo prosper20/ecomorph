@@ -9,64 +9,104 @@ export const projects = [
     description2: `9stack designed and developed the new Ol'clare website from the ground up using Next.js. We leveraged subtle animations to bring the UI to life. The site was built with a strong emphasis on SEO, performance, and responsive design, making it both user-friendly and search engine optimized.`,
     liveUrl: 'https://www.olclarehomes.com/',
   },
-  // {
-  //     slug: "medtrackr",
-  //     logo: "/globe.svg",
-  //     image: "/Link 2.svg",
-  //     largeImage: '/images/olclare6-large.png',
-  //     tags: ["Product Strategy", "UI/UX Design", "React Development"],
-  //     description: `MedTrackr is an innovative platform aimed at streamlining medication management and improving patient adherence. Recognizing the challenges individuals face in tracking prescriptions and refills, MedTrackr sought a user-friendly digital solution.`,
-  //     description2: `Our team provided comprehensive product strategy, defining key features and user flows. We then translated these insights into a clean and intuitive UI/UX design. Finally, we developed a robust application using React, ensuring a seamless experience across devices.`,
-  //     liveUrl: 'https://dummy.medtrackr.com',
-  //   },
-  //   {
-  //     slug: "finote",
-  //     logo: "/globe.svg",
-  //     image: "/Link.svg",
-  //     largeImage: '/images/olclare6-large.png',
-  //     tags: ["UX Research", "Visual Design", "Fullstack Development"],
-  //     description: `Finote is a personal finance application designed to empower users to take control of their financial well-being. They envisioned a platform that simplifies budgeting, expense tracking, and financial goal setting.`,
-  //     description2: `We began with in-depth UX research to understand user needs and pain points. This informed the visual design, creating an engaging and easy-to-understand interface. Our fullstack development team built a scalable and secure application to handle user data and financial transactions.`,
-  //     liveUrl: 'https://app.finote.io',
-  //   },
-  //   {
-  //     slug: "learnio",
-  //     logo: "/globe.svg",
-  //     image: "/Link 2.svg",
-  //     largeImage: '/images/olclare6-large.png',
-  //     tags: ["User Flow Design", "Component Design", "Next.js Development"],
-  //     description: `Learnio is an e-learning platform focused on providing interactive and engaging educational content. They aimed to create a seamless learning experience with a focus on clear navigation and reusable components.`,
-  //     description2: `Our work involved designing intuitive user flows to guide learners through courses effectively. We also developed a comprehensive library of reusable UI components to ensure consistency and accelerate development. The platform was built using Next.js for optimal performance and scalability.`,
-  //     liveUrl: 'https://learnio.academy',
-  //   },
-  //   {
-  //     slug: "tripmix",
-  //     logo: "/globe.svg",
-  //     image: "/Link.svg",
-  //     largeImage: '/images/olclare6-large.png',
-  //     tags: ["Branding", "UI Kit Creation", "Frontend Architecture"],
-  //     description: `TripMix is a travel planning application designed to help users discover and organize their perfect trips. They needed a strong brand identity and a well-structured frontend to deliver a compelling user experience.`,
-  //     description2: `We developed a distinct brand identity that captures the essence of exploration and adventure. This was translated into a comprehensive UI kit, providing guidelines and reusable elements for the application's interface. We also established a robust frontend architecture to ensure scalability and maintainability.`,
-  //     liveUrl: 'https://tripmix.explore',
-  //   },
-  //   {
-  //     slug: "learnio-repeat",
-  //     logo: "/globe.svg",
-  //     image: "/Link 2.svg",
-  //     largeImage: '/images/olclare6-large.png',
-  //     tags: ["User Flow Design", "Component Design", "Next.js Development"],
-  //     description: `(Repeating project for demonstration) Learnio is an e-learning platform focused on providing interactive and engaging educational content. They aimed to create a seamless learning experience with a focus on clear navigation and reusable components.`,
-  //     description2: `(Repeating project for demonstration) Our work involved designing intuitive user flows to guide learners through courses effectively. We also developed a comprehensive library of reusable UI components to ensure consistency and accelerate development. The platform was built using Next.js for optimal performance and scalability.`,
-  //     liveUrl: 'https://learnio-demo.site',
-  //   },
-  //   {
-  //     slug: "tripmix-repeat",
-  //     logo: "/globe.svg",
-  //     image: "/Link.svg",
-  //     largeImage: '/images/olclare6-large.png',
-  //     tags: ["Branding", "UI Kit Creation", "Frontend Architecture"],
-  //     description: `(Repeating project for demonstration) TripMix is a travel planning application designed to help users discover and organize their perfect trips. They needed a strong brand identity and a well-structured frontend to deliver a compelling user experience.`,
-  //     description2: `(Repeating project for demonstration) We developed a distinct brand identity that captures the essence of exploration and adventure. This was translated into a comprehensive UI kit, providing guidelines and reusable elements for the application's interface. We also established a robust frontend architecture to ensure scalability and maintainability.`,
-  //     liveUrl: 'https://tripmix-test.app',
-  //   }
 ]
+
+export const projectsData = [
+  {
+    category: "Oil & Gas Facilities",
+    projects: [
+      {
+        id: 1,
+        title: "OML 42 Facility Upgrade – Ecomorph/Nestoil",
+        location: "Odidi/Egwa/Jones Creek",
+        images: ["/projects/project22.jpeg", "/projects/project22.jpeg", "/projects/project22.jpeg"],
+        description: "OML 42 Facility upgrade at Odidi/Egwa/Jones Creek"
+      },
+      {
+        id: 2,
+        title: "Olero Creek Facility Demolition – Ecomorph/Chevron",
+        location: "Olero Creek",
+        images: ["/projects/project28.jpeg"],
+        description: "Demolition works at Olero Creek facility location"
+      },
+      {
+        id: 3,
+        title: "OML 86/88 Offshore Facilities Upgrade – Ecomorph/Pioneer/NEPL",
+        location: "Funiwa and North Apoi",
+        images: ["/projects/project21.jpeg"],
+        description: "Offshore facilities upgrade at Funiwa and North Apoi"
+      }
+    ]
+  }
+];
+
+
+// export const projectsData = [
+//   {
+//     category: "Container Homes",
+//     projects: [
+//       {
+//         id: 1,
+//         title: "Modern Family Home",
+//         location: "Austin, TX",
+//         images: [
+//           "https://images.unsplash.com/photo-1518005020951-eccb494ad742?w=800&h=600&fit=crop",
+//           "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=800&h=600&fit=crop",
+//           "https://images.unsplash.com/photo-1486718448742-163732cd1544?w=800&h=600&fit=crop"
+//         ],
+//         description: "3-bedroom family home built from 4 shipping containers"
+//       },
+//       {
+//         id: 2,
+//         title: "Eco-Friendly Retreat",
+//         location: "Portland, OR",
+//         images: [
+//           "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=800&h=600&fit=crop",
+//           "https://images.unsplash.com/photo-1518005020951-eccb494ad742?w=800&h=600&fit=crop"
+//         ],
+//         description: "Sustainable living space with solar panels and rainwater collection"
+//       }
+//     ]
+//   },
+//   {
+//     category: "Office Spaces",
+//     projects: [
+//       {
+//         id: 3,
+//         title: "Tech Startup Hub",
+//         location: "San Francisco, CA",
+//         images: [
+//           "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&h=600&fit=crop",
+//           "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=800&h=600&fit=crop"
+//         ],
+//         description: "Modern co-working space with flexible layouts"
+//       },
+//       {
+//         id: 4,
+//         title: "Creative Studio",
+//         location: "Brooklyn, NY",
+//         images: [
+//           "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=800&h=600&fit=crop",
+//           "https://images.unsplash.com/photo-1486718448742-163732cd1544?w=800&h=600&fit=crop",
+//           "https://images.unsplash.com/photo-1518005020951-eccb494ad742?w=800&h=600&fit=crop"
+//         ],
+//         description: "Artist workspace with natural lighting and industrial aesthetics"
+//       }
+//     ]
+//   },
+//   {
+//     category: "Retail Shops",
+//     projects: [
+//       {
+//         id: 5,
+//         title: "Pop-up Coffee Shop",
+//         location: "Denver, CO",
+//         images: [
+//           "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=800&h=600&fit=crop",
+//           "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&h=600&fit=crop"
+//         ],
+//         description: "Mobile coffee shop with serving window and outdoor seating"
+//       }
+//     ]
+//   }
+// ];
