@@ -29,19 +29,19 @@ export const metadata: Metadata = {
   description:
     'Ecomorph Projects Ltd delivers innovative, efficient, and sustainable solutions in logistics, procurement, construction, and oil & gas. Trusted partner for high-quality services across Nigeria and beyond.',
 
-  metadataBase: new URL('https://ecomorphprojects.com'), // Update this with your live domain
-
+  metadataBase: new URL('https://www.ecomorphprojectsltd.com'),
+  
   openGraph: {
     title: 'Ecomorph Projects Limited | Logistics | Procurement | Construction | Oil & Gas',
     description:
       'Leading provider of logistics, procurement, construction, and oil & gas services. We deliver tailored solutions that drive growth, efficiency, and value.',
-    url: 'https://ecomorphprojects.com', // Update with your live domain
+    url: 'https://www.ecomorphprojectsltd.com',
     siteName: 'Ecomorph Projects Limited',
     locale: 'en_NG',
     type: 'website',
     images: [
       {
-        url: '/opengraph-image.png', // Use your actual OG image
+        url: '/opengraph-image.png',
         width: 1200,
         height: 630,
         alt: 'Ecomorph Projects Limited | Logistics | Procurement | Construction | Oil & Gas',
