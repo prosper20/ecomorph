@@ -23,7 +23,7 @@ const Work = () => {
                 {/* Projects Grid */}
                 <div className="grid gap-8">
                   {category.projects.map((project) => (
-                    <Card key={project.id} className="overflow-hidden hover:shadow-xl transition-all duration-300 border-0">
+                    <Card id={project.id} key={project.id} className="overflow-hidden hover:shadow-xl transition-all duration-300 border-0">
                       <CardContent className="p-0">
                         <div className="grid md:grid-cols-3 gap-0 h-full">
                           {/* Image Gallery - Now takes 2/3 of width */}
@@ -54,7 +54,7 @@ const Work = () => {
                           </div>
 
                           {/* Project Info - Now takes 1/3 of width */}
-                          <div className="p-6 flex flex-col justify-center bg-white">
+                          <div className="p-6 pt-8 flex flex-col justify-start bg-white">
                             <div className="mb-4">
                               <h3 className="text-xl font-bold text-gray-900 mb-2 line-clamp-2">
                                 {project.title}
@@ -67,15 +67,15 @@ const Work = () => {
                                 {project.location}
                               </p>
                             </div>
-                            <p className="text-gray-600 text-sm leading-relaxed line-clamp-4">
+                            <p className="text-gray-600 text-md leading-relaxed line-clamp-4">
                               {project.description}
                             </p>
-                            <button className="mt-6 self-start inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors text-sm font-medium">
+                            {/* <button className="mt-6 self-start inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors text-sm font-medium">
                               View Details
                               <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                               </svg>
-                            </button>
+                            </button> */}
                           </div>
                         </div>
                       </CardContent>

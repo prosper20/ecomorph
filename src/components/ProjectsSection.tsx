@@ -51,7 +51,7 @@ export default function ProjectsSection() {
 
         <div className="md:w-2/3 space-y-6">
           {projects.map(project => (
-            <Link href={`/projects/${project.id}`} key={project.id} className="block group overflow-hidden relative">
+            <Link href={`/work#${project.id}`} key={project.id} className="block group overflow-hidden relative">
               <div className="relative w-full h-[360px] md:h-[450px]">
                 <Image
                   src={project.images[0]}
