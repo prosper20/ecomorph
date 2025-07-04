@@ -1,5 +1,7 @@
 'use client';
 
+import Link from "next/link";
+
 export const CallToAction = () => {
   return (
     <section className="flex flex-col md:flex-row w-full h-[400px] md:h-[500px]">
@@ -21,9 +23,9 @@ export const CallToAction = () => {
           <p className="text-white text-lg md:text-xl font-semibold">
             Let&apos;s talk about your project.
           </p>
-          <button className="bg-red-700 hover:bg-red-800 text-white py-3 px-6 rounded transition duration-300">
+          <Link href={`/contact#contact-form`} className="bg-red-700 hover:bg-red-800 text-white py-3 px-6 rounded transition duration-300">
             CONTACT US
-          </button>
+          </Link>
         </div>
       </div>
     </section>
