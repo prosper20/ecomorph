@@ -4,10 +4,22 @@ import Link from 'next/link';
 
 const Footer: React.FC = () => {
   const navigationLinks = [
-    'Our Work',
-    'About Us', 
-    'Contact Us',
-    'Privacy Policy'
+    {
+      title: 'Our Work',
+      url: '/work'
+    },
+    {
+      title: 'About Us', 
+      url: '/about'
+    },
+    {
+      title: 'Contact Us',
+      url: '/contact'
+    },
+    {
+      title: 'Privacy Policy',
+      url: '/privacy'
+    },
   ];
 
   const socialLinks = [
@@ -90,10 +102,10 @@ const Footer: React.FC = () => {
               {navigationLinks.map((link, index) => (
                 <div key={index}>
                   <a
-                    href="#"
+                    href={link.url}
                     className="text-gray-800 font-medium hover:text-gray-600 transition-colors duration-200 block"
                   >
-                    {link}
+                    {link.title}
                   </a>
                 </div>
               ))}
