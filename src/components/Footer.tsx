@@ -64,7 +64,7 @@ const Footer: React.FC = () => {
 6 Peter Odili Road, Trans Amadi, Port Harcourt, Rivers State.
               </div>
               <div className="text-gray-800 font-medium">
-              ecomorphprojects@proton.me
+              info@ecomorphprojectsltd.com
               </div>
               <div className="text-gray-800 font-medium">
               +234 806 097 4090
