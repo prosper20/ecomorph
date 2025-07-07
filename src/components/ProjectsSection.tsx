@@ -44,7 +44,7 @@ export default function ProjectsSection() {
       <div className="max-w-8xl mx-auto sm:px-6 lg:px-8 flex flex-col md:flex-row gap-8">
         <div className="md:w-1/3 px-4">
           <h2 className="text-3xl font-semibold text-gray-800 mb-4">View Our Work</h2>
-          <Link href="/projects" className="text-sm font-medium text-gray-700 underline hover:text-black inline-flex items-center gap-1">
+          <Link href="/work" className="text-sm font-medium text-gray-700 underline hover:text-black inline-flex items-center gap-1">
             VIEW MORE <span aria-hidden="true">→</span>
           </Link>
         </div>
