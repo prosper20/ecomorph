@@ -7,7 +7,6 @@ import ProjectsSection from "@/components/ProjectsSection";
 export default function HomePage() {
   return (
     <>
-      {/* <Hero title="We build premium websites that make your brand stand out." align="left" /> */}
       <Hero />
       <Features />
       <ProjectsSection />

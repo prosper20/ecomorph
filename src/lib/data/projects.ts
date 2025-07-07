@@ -40,7 +40,7 @@ export const projectsData = [
         id: 'mobil',
         title: "Mobil Producing Nigeria Limited",
         location: "Eket, Akwa Ibom State",
-        images: ["/projects/project3.jpeg", "/projects/project12.jpeg", "/projects/project10.jpeg", "/projects/project14.jpeg"],
+        images: ["/projects/project35.jpeg", "/projects/project33.jpeg", "/projects/project34.jpeg", "/projects/project36.jpeg"],
         description: "Refurbishment of Tank 5005 Qua Ibom Terminal (QIT)."
       }
     ]

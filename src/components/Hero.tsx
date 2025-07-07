@@ -10,19 +10,40 @@ const Hero: React.FC = () => {
   const slides = [
     {
       image: '/images/hero1.jpg',
-      title: 'OPEN DOORS FASTER',
-      subtitle: 'Innovative Eco Friendly solutions'
+    title: 'LOGISTICS & PROCUREMENT',
+    subtitle: 'Seamless supply chain management and strategic procurement'
+    },
+    {
+      image: '/images/hero1.jpg',
+      title: 'EXPERT CIVIL ENGINEERING',
+      subtitle: 'Innovative civil engineering'
+    },
+
+    {
+      image: '/images/hero1.jpg',
+      title: 'PORTACABIN FABRICATION',
+      subtitle: 'Customizable portacabin solutions'
     },
     {
       image: '/images/hero2.jpg',
-      title: 'BUILD SMARTER TODAY',
-      subtitle: 'Revolutionary construction technology'
+      title: 'OIL & GAS SERVICES',
+      subtitle: 'Specialized upstream, midstream, and downstream solutions in Nigeria’s oil and gas sector.'
     },
-    {
-      image: '/images/hero3.jpg', 
-      title: 'FUTURE OF BUILDING',
-      subtitle: 'Next-generation housing systems'
-    }
+    // {
+    //   image: '/images/hero1.jpg',
+    //   title: 'OPEN DOORS FASTER',
+    //   subtitle: 'Innovative Eco Friendly solutions'
+    // },
+    // {
+    //   image: '/images/hero2.jpg',
+    //   title: 'BUILD SMARTER TODAY',
+    //   subtitle: 'Revolutionary construction technology'
+    // },
+    // {
+    //   image: '/images/hero3.jpg', 
+    //   title: 'FUTURE OF BUILDING',
+    //   subtitle: 'Next-generation housing systems'
+    // }
   ];
 
   const menuItems = [
@@ -243,7 +264,7 @@ const Hero: React.FC = () => {
           <div className="overflow-hidden">
             <h1 
               key={currentSlide}
-              className="text-6xl lg:text-8xl font-bold text-white leading-tight tracking-tight animate-slideUp"
+              className="text-5xl lg:text-7xl font-bold text-white leading-tight tracking-tight animate-slideUp"
             >
               {slides[currentSlide].title.split(' ').map((word, index) => (
                 <div key={index} className="overflow-hidden">
@@ -276,8 +297,11 @@ const Hero: React.FC = () => {
 
           {/* CTA Button */}
           <div className="overflow-hidden mt-12">
+          <Link
+              href='/work'
+              >
             <button 
-              className="bg-transparent border-2 border-white text-white px-8 py-4 text-sm font-semibold tracking-widest hover:bg-white hover:text-black transition-all duration-300 animate-slideUp"
+              className="cursor-pointer bg-transparent border-2 border-white text-white px-8 py-4 text-sm font-semibold tracking-widest hover:bg-white hover:text-black transition-all duration-300 animate-slideUp"
               style={{ 
                 animationDelay: '0.6s',
                 animationFillMode: 'both'
@@ -285,6 +309,7 @@ const Hero: React.FC = () => {
             >
               LEARN MORE
             </button>
+            </Link>
           </div>
         </div>
       </div>
